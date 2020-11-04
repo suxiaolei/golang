@@ -9,6 +9,6 @@ import (
 func main() {
 	r := gin.Default()
 	r.GET("/ping", controller.Ping)
-
+	r.GET("/register", controller.Register)
 	r.Run()
 }
