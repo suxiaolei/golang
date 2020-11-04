@@ -1,9 +1,8 @@
 package main
 
 import (
-	"github.com/suxiaolei/golang/gin-web/controller"
-
 	"github.com/gin-gonic/gin"
+	"github.com/suxiaolei/golang/gin-web/controller"
 )
 
 func main() {
